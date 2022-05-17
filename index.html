@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sorteio pré-lançamento</title>
+    <link rel="stylesheet" href="formulario.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+  </head>
+<!-- titulo e subtítulo do formulário -->
+<body>
+  <section>
+    <header>
+      <div >
+         <h3>Editora fictícia Brenform</h3>
+          <h1 id="titulo">Livro: Aurora Richie  - in the lost world</h1>
+         <p id="subtitulo">Cadastro para o sorteio do pré-lançamento</p>
+      </div>
+   </header>
+  </section>
+<!-- Dados do filhote de Deus -->
+  <section>
+   <form class="perguntas">
+      <div>
+        <label> Seu nome </label>
+        <input type="text" id="nome"> 
+      </div>
+      <div>
+        <label> Seu sobrenome </label>
+        <input type="text" id="sobrenome"> 
+      </div>
+  <!-- Dados de contato do Filhote -->
+      <div>
+         <Label>E-mail</Label>
+             <input type="E-mail" id="e-mail">
+      </div>
+  <!-- Pergunta do formulário de seleção -->
+      <div>
+        <h2>Agora mais algumas perguntinhas okay?</h2>
+        <fieldset>
+          <Label>Como você conheceu nossos livros?</Label> <br>
+          <label class="perguntas">
+                 <input type="radio" name="leitura" value="redes sociais" > Em redes sociais
+           </label>
+          <label class="perguntas">
+                <input type="radio" name="leitura" value="por amigos"> Por amigos
+          </label>
+          <label class="perguntas">
+               <input type="radio" name="leitura" value="em livrarias"> Em livrarias
+         </label>
+         <label class="perguntas">
+               <input type="radio" name="leitura" value="ganhou">Ganhei de presente
+         </label>
+      </div>
+    </fieldset>
+<!-- Perguntas multi-seleção-->
+      <div class="perguntas">
+       <fieldset>
+         <label>Selecione os gêneros que você curte</label> <br>
+         <label>
+           <input type="checkbox" class="leitura" value="Fantasia"> Fantasia 
+           <input type="checkbox" class="leitura" value="Terror"> Terror 
+           <input type="checkbox" class="leitura" value="Drama"> Drama
+           <input type="checkbox" class="leitura" value="Ficção"> Ficção
+           <input type="checkbox" class="leitura" value="Romance"> Romance
+           <input type="checkbox" class="leitura" value="Contos"> Contos
+           <input type="checkbox" class="leitura" value="Crimes reais"> Crimes reais
+          </label>
+      </div>
+    </fieldset>
+ <!-- Caixa para resopsta em texto-->
+       <div class="perguntas">
+         <h2>Já esta quase lá!</h2>
+        <Label>Conte o que espera desta nova edição de Aurora Richie - In the lost world</Label>  <br>
+        <textarea rows="10"  style="width: 50em" id="expectativa" name="expectativa">O que você espera?</textarea> 
+      </div>
+<!-- Concluir -->
+      <button type="submit" id="submit" >Concluído</button>
+    </section>
+   </form>
+ </body>
+</html>

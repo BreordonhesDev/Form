@@ -1,0 +1,132 @@
+:root{
+  --title-font-size: 2.55rem;
+  --subtitle-font-size: 1rem;
+  --title-font: 'Poppins', sans-serif;
+  --body-font: 'DM Sans', sans-serif;
+ }
+ 
+*{
+  margin: 0px;
+  padding: 05px;
+  border-radius: 10px;
+}
+
+body {
+        margin-left: 505px;
+        margin-right: 100px;
+        background: linear-gradient(rgba(18, 198, 243, 0.658), rgba(89, 29, 104, 0.63) 100%), url(../assets/img/fundo\ livro\ \(10\).png);
+        background-repeat: repeat;
+        background-position: center;
+        font: 100 var(--subtitle-font-size) var(--title-font);
+       color: aliceblue;
+             
+}
+h2{
+  font-size: 1rem;
+  margin-top: 80px;
+}
+h3{
+  font:400  var(--body-font);
+  font-size: 10px;
+  color:azure;
+  margin-left: calc(39%);
+
+}
+
+#submit {
+  margin-left: calc(42%);
+  background-color: rgba(17, 4, 75, 0.836);
+  color: rgb(43, 189, 226);
+
+}
+
+#titulo{
+        font-size: 2em;
+        margin-bottom: 5px;
+        margin-top: 30px;
+       font-family: var(--font);
+       border: none;
+       font:400 var(--title-font-size) var(--body-font);
+       color:azure;
+       
+}
+
+#subtitulo {
+        margin-bottom: 80px;
+        font-family: var(--font);
+        margin-left: 140px;
+}
+
+#expectativa {
+  background-color: rgba(54, 161, 233, 0.253);
+  border: 1px solid #59429d;
+  box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+  display: block;
+  color: rgba(17, 4, 75, 0.836);
+}
+
+#nome{
+  background-color: rgb(54, 161, 233);
+  font-size: 1rem;
+  padding-right: 0.5em;
+  border: 1px solid #59429d;
+  box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+  width: 500px;
+  height: 20px;
+  float: right;
+  padding-top: 0.5px;
+}
+
+#sobrenome{
+  background-color: rgb(54, 161, 233);
+  font-size: 1rem;
+  padding-right: 0.5em;
+  border: 1px solid #59429d;
+  box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+  width: 500px;
+  height: 20px;
+  float: right;
+  padding-top: 0.5px;
+}
+
+
+#e-mail{
+  background-color: rgb(54, 161, 233);
+  font-size: 1rem;
+  border: 1px solid #59429d;
+  box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+  display: block;
+  width: 500px;
+  height: 20px;
+  float: right;
+  padding-top: 0.5px;
+}
+
+Label {
+  margin-bottom: 15px;
+  font-family: var(--font);
+  font-size: 15px;
+  color: rgb(237, 237, 248);
+  
+}
+
+fieldset {
+  border: 1px solid #59429d;
+  box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+  display: block;
+  margin-bottom: 10px;
+}
+
+.perguntas {
+   font-size: 1rem;
+   color: aliceblue;
+}
+
+
+
+
+
+
+
+
+
