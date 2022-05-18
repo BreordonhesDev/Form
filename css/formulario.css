@@ -18,28 +18,17 @@ body {
         background-repeat: repeat;
         background-position: center;
         font: 100 var(--subtitle-font-size) var(--title-font);
-       color: aliceblue;
-             
+       color: aliceblue;           
 }
 h2{
   font-size: 1rem;
-  margin-top: 80px;
+  margin-top: 40px;
 }
-h3{
-  font:400  var(--body-font);
-  font-size: 10px;
-  color:azure;
-  margin-left: calc(39%);
-
-}
-
 #submit {
   margin-left: calc(42%);
   background-color: rgba(17, 4, 75, 0.836);
   color: rgb(43, 189, 226);
-
 }
-
 #titulo{
         font-size: 2em;
         margin-bottom: 5px;
@@ -47,8 +36,7 @@ h3{
        font-family: var(--font);
        border: none;
        font:400 var(--title-font-size) var(--body-font);
-       color:azure;
-       
+       color:azure;      
 }
 
 #subtitulo {
@@ -102,24 +90,35 @@ h3{
   padding-top: 0.5px;
 }
 
+
 Label {
-  margin-bottom: 15px;
   font-family: var(--font);
   font-size: 15px;
   color: rgb(237, 237, 248);
-  
 }
 
 fieldset {
   border: 1px solid #59429d;
   box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
-  display: block;
   margin-bottom: 10px;
+  display: flex;
+  justify-content: space-evenly;
 }
 
-.perguntas {
-   font-size: 1rem;
-   color: aliceblue;
+.perguntasy {
+  font-size: 15px;
+  color: aliceblue;
+  background: linear-gradient(rgba(18, 198, 243, 0.658), rgba(89, 29, 104, 0.63) 100%);
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 80px;
+}
+
+
+.perguntass {
+  color: aliceblue;
+  background: linear-gradient(rgba(18, 198, 243, 0.658), rgba(89, 29, 104, 0.63) 100%);
+  font-size: 15px;
 }
 
 
